@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="md:flex min-h-screen">
         <SideBar/>
-        <div className="md:w-3/5 xl:w-4/5">
+        <div className="md:w-3/5 xl:w-4/5 p-6">
           <Switch>
             <Route exact path="/" component={Ordenes} />
             <Route exact path="/menu" component={Menu} />
